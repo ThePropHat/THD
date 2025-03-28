@@ -133,7 +133,7 @@ function typeText(targetElement, text, speed = 50, callback) {
 
             case "contact":
                 printLine("Contact Me:");
-                printLine("Email: tylerhensondesigns@gmail.com");
+                printLine("Email: contact@tylerhensondesigns.com");
                 printLine("Twitter: @MDN_404");
                 printLine("Behance: https://www.behance.net/tylerhensondesigns");
                 break;
