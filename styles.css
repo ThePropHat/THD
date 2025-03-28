@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {
+    background-color: black;
+    color: ghostwhite;
+    font-family: 'VT323', monospace;
+    font-size: 18px;
+    margin: 0;
+    padding: 20px;
+}
+
+#terminal {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    background-color: black;
+    padding: 20px;
+    border: 2px grey;
+    min-height: 400px;
+    box-shadow: 0 0 10px black;
+    overflow-y: auto;
+}
+
+.prompt {
+    color: white;
+}
+
+.cursor {
+    animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+    50% { opacity: 0; }
+}
+
+.clickable {
+    color: cyan;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.clickable:hover {
+    color: white;
+}
