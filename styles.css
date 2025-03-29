@@ -34,7 +34,7 @@ body {
 }
 
 .clickable {
-    color: cyan;
+    color: purple;
     cursor: pointer;
     text-decoration: underline;
 }
