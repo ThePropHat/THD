@@ -107,7 +107,7 @@ function typeText(targetElement, text, speed = 50, callback) {
     // Create the project links
     let project1 = createProjectLink("MYDIGITALNIGHTMARES", "https://www.behance.net/gallery/213212425/MY-DIGITAL-NIGHTMARES-Exploring-Digital-Horror");
     let project2 = createProjectLink("TOBACCO", "https://www.behance.net/gallery/175328791/THEPROPHAT-TOBACCO");
-    let project3 = createProjectLink("Secret Project", "https://www.behance.net/yourproject3");
+    let project3 = createProjectLink("Secret Project", "https://www.youtube.com/c/theprophatlp");
     
     // Append text and links to container
     container.appendChild(document.createTextNode("[ "));
