@@ -22,6 +22,7 @@ function typeText(targetElement, text, speed = 50, callback) {
         "C:\\> Ready."
     ];
 
+
     function printLine(text, delay = 100) {
         return new Promise(resolve => {
             setTimeout(() => {
@@ -73,7 +74,7 @@ function typeText(targetElement, text, speed = 50, callback) {
     }
 
     function handleCommand(command) {
-        
+
         switch (command) {
             case "about_me":
                 printLine("Loading user profile...");
@@ -105,9 +106,9 @@ function typeText(targetElement, text, speed = 50, callback) {
     }
     
     // Create the project links
-    let project1 = createProjectLink("MYDIGITALNIGHTMARES", "https://www.behance.net/gallery/213212425/MY-DIGITAL-NIGHTMARES-Exploring-Digital-Horror");
+    let project1 = createProjectLink("MYDIGITALNIGHTMARES", "mydigitalnightmares");
     let project2 = createProjectLink("TOBACCO", "https://www.behance.net/gallery/175328791/THEPROPHAT-TOBACCO");
-    let project3 = createProjectLink("Secret Project", "https://www.youtube.com/c/theprophatlp");
+    let project3 = createProjectLink("Branding", "https://www.behance.net/yourproject3");
     
     // Append text and links to container
     container.appendChild(document.createTextNode("[ "));
@@ -133,7 +134,7 @@ function typeText(targetElement, text, speed = 50, callback) {
 
             case "contact":
                 printLine("Contact Me:");
-                printLine("Email: contact@tylerhensondesigns.com");
+                printLine("Email: tylerhensondesigns@gmail.com");
                 printLine("Twitter: @MDN_404");
                 printLine("Behance: https://www.behance.net/tylerhensondesigns");
                 break;
